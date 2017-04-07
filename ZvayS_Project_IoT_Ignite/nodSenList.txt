@@ -1,0 +1,54 @@
+{
+	"data":
+		[
+
+			{
+				"nodeId":"selamiHome",
+				"things":
+					[
+						{
+							"id":"pyHomeTemp",
+							"dataType":"INTEGER",
+							"vendor":"ARDIC",
+							"actuator":false,
+							"type":"pythonSensorType"
+						}
+					]
+			},
+			{
+				"nodeId":"selamiOffice",
+				"things":
+					[
+						{
+							"id":"pyOfficeTemp",
+							"dataType":"INTEGER",
+							"vendor":"ARDIC",
+							"actuator":false,
+							"type":"pythonSensorType"
+						},
+						{
+							"id":"pyOfficeHum",
+							"dataType":"INTEGER",
+							"vendor":"ARDIC",
+							"actuator":false,
+							"type":"pythonSensorType"
+						}
+					]
+			},
+			
+			{
+				"nodeId":"selamiCar",
+				"things":
+					[
+						{
+							"id":"pyCarSecur",
+							"dataType":"INTEGER",
+							"vendor":"ARDIC",
+							"actuator":false,
+							"type":"pythonSensorType"
+						}
+					]
+			}
+
+		]
+	}
